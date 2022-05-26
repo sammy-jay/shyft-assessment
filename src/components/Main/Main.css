@@ -1,0 +1,65 @@
+.main_section {
+  padding: 0 3rem;
+  margin-bottom: 2rem;
+}
+.main {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 1px 4px 20px rgba(255, 255, 255);
+  padding: 1.5rem;
+  margin: 0 auto;
+  width: 550px;
+}
+
+.loading {
+  margin: 2rem auto;
+}
+.loading h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 45px;
+}
+.main .articleOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+.main .articleOne h6 {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.main .articleOne h6 span {
+  color: #f0c749;
+  font-weight: 400;
+  font-size: 1.05rem;
+  margin-right: 5px;
+}
+.chip {
+  background: #f0c749;
+  color: #fff;
+  font-weight: 400;
+  padding: 6px 15px;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  border: none;
+}
+.articleTwo {
+  margin-top: 1rem;
+}
+.articleTwo h5 {
+  font-weight: 500;
+  font-size: 1.15rem;
+}
+
+@media screen and (max-width: 800px) {
+  .main_section {
+    padding: 0 1rem;
+  }
+  .main {
+    width: 100%;
+  }
+  .loading h2 {
+    font-size: 35px;
+  }
+}

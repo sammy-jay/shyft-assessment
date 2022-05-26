@@ -1,0 +1,53 @@
+.navbar {
+  background-color: #211a37;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar img {
+  height: 30px;
+  object-fit: contain;
+}
+.navbar button {
+  background: #f0c749;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  border: none;
+}
+.navbar .secondPart {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.navbar .secondPart svg {
+  font-size: 40px;
+  margin-left: 5px;
+}
+.navbar .secondPart h6 {
+  margin: 0;
+  text-align: right;
+  padding: 0;
+  font-weight: 500;
+  font-size: 1.02rem;
+}
+.navbar .secondPart p {
+  color: #888;
+  margin: 0;
+  text-align: right;
+  padding: 0;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    padding: 1rem 1.5rem;
+  }
+  .navbar .secondPart svg {
+    display: none;
+  }
+}
