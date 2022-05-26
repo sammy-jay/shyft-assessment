@@ -20,7 +20,6 @@ export const getCurrentHousehold = (id) => async (dispatch) => {
     const {
       data: { data },
     } = await api.getCurrentHousehold(parseInt(id));
-    console.log(data);
     dispatch({ type: "HOUSEHOLD_DATA", payload: data });
     dispatch({ type: "LOADING", payload: false });
   } catch (error) {

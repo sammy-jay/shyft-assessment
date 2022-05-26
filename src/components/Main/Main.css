@@ -27,12 +27,14 @@
 .main .articleOne h6 {
   font-weight: 600;
   font-size: 0.95rem;
+  margin-bottom: 7px;
 }
 .main .articleOne h6 span {
   color: #f0c749;
   font-weight: 400;
   font-size: 1.05rem;
   margin-right: 5px;
+  margin-bottom: 7px;
 }
 .chip {
   background: #f0c749;
