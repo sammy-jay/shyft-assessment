@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getCurrentHousehold, getCurrentUser } from "../../actions/infoActions";
+import { getCurrentHousehold } from "../../actions/infoActions";
 import Chip from "../Chip/Chip";
 import "./Main.css";
 
@@ -9,7 +9,6 @@ const Main = () => {
   const loadingState = useSelector((state) => state.info.loading);
   const errorState = useSelector((state) => state.info.error);
 
-  const userData = useSelector((state) => state.info.userData?.attributes);
   const householdData = useSelector((state) => state.info.householdData);
 
   const totalEnergy = Math.round(
@@ -18,7 +17,6 @@ const Main = () => {
   );
 
   useEffect(() => {
-    dispatch(getCurrentUser());
     dispatch(getCurrentHousehold(10));
   }, []);
 

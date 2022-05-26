@@ -4,6 +4,7 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { useDispatch, useSelector } from "react-redux";
 import { getCurrentUser } from "../../actions/infoActions";
 import logo from "../../assets/shyft-logo.png";
+
 const Navbar = () => {
   const dispatch = useDispatch();
   const userData = useSelector((state) => state.info.userData?.attributes);
@@ -11,6 +12,7 @@ const Navbar = () => {
   useEffect(() => {
     dispatch(getCurrentUser());
   }, []);
+
   return (
     <nav className="navbar">
       <img src={logo} alt="Shyft Logo" />

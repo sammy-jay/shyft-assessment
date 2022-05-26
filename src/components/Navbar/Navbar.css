@@ -9,15 +9,7 @@
   height: 30px;
   object-fit: contain;
 }
-.navbar button {
-  background: #f0c749;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.95rem;
-  border: none;
-}
+
 .navbar .secondPart {
   display: flex;
   align-items: center;

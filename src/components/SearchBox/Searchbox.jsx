@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import "./SearchBox.css";
 import { useDispatch } from "react-redux";
 import { getCurrentHousehold } from "../../actions/infoActions";
+
 const Searchbox = () => {
   const dispatch = useDispatch();
   const [id, setId] = useState("");
+
   return (
     <div className="searchBox">
       <input
