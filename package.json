@@ -1,6 +1,7 @@
 {
   "name": "shyft-assessment",
   "private": true,
+  "proxy": "https://api-dev.trysolstice.com/v1",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
