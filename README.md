@@ -22,12 +22,6 @@ Install the required dependencies
 npm install
 ```
 
-Add a .env file in your root dir
-
-```
-AUTH_TOKEN=xxxxxxxxxxx
-```
-
 On install, you can start the app running
 
 ```

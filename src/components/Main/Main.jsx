@@ -30,7 +30,7 @@ const Main = () => {
   if (errorState) {
     return (
       <div className="loading">
-        <h2>Oops, I did'nt get that...</h2>
+        <h2>Oops, I didn't get that...</h2>
       </div>
     );
   }
